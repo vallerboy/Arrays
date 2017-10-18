@@ -17,8 +17,7 @@ public class Task8a {
         for (int i : array) {
              int modulo = i % 37;
             if(!builder.toString().contains(String.valueOf(modulo))){
-                builder.append(modulo);
-                builder.append(":");
+                builder.append(modulo).append(":");
             }
         }
 
