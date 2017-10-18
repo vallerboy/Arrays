@@ -24,7 +24,7 @@ public class Task8 {
 
         for(int i = 0; i < array.length; i++){
             boolean exist = false;
-            for(int x = 0; x < array.length; x++){
+            for(int x = 0; x < dividers.length; x++){
                 if(array[i] == dividers[x]){
                     exist = true;
                 }
