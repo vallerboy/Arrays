@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Task3Bonus {
     public static void main(String[] args) {
-        int[] someNumbers = {5,5,1,1,4,4,4,4};
+        int[] someNumbers = {5,5};
       //  1 1 1 1 1 1 1 4 5 5
       //          1 4 5 5 5 5 5 5 5 5
         Arrays.sort(someNumbers);
